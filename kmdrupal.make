@@ -20,7 +20,9 @@ projects[] = semanticviews
 projects[] = strongarm
 projects[] = views_bulk_operations
 
-projects[kminstall][type
+projects[kmdrupal_install][type] = "profile"
+projects[kmdrupal_install][download][type] = "file"
+projects[kmdrupal_install][download][url] = "https://raw.github.com/ASCTech/kmdrupal/master/kmdrupal.profile"
 
 projects[km][type] = "module"
 projects[km][download][type] = "file"
