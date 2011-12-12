@@ -23,12 +23,4 @@ function kmdrupal_profile_modules() {
   return array_merge($core, $contrib);
 }
 
-/**
- * Implementation of hook_profile_final().
- *
- * 
- */
-function kmdrupal_profile_final() { 
-  $task = 'profile-finished';
-}
 ?>
