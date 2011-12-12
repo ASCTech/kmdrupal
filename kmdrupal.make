@@ -6,8 +6,8 @@ api = 2
 projects[] = drupal
 
 
-projects[] = views  
 projects[] = ctools  
+projects[] = cck
 projects[] = features  
 projects[] = filefield  
 projects[] = imageapi  
@@ -16,9 +16,11 @@ projects[] = imagefield
 projects[] = imagefield_crop  
 projects[] = install_profile_api
 projects[] = job_scheduler
+projects[] = libraries
 projects[] = semanticviews
 projects[] = strongarm
 projects[] = views_bulk_operations
+projects[] = views  
 
 projects[kmdrupal][type] = "profile"
 projects[kmdrupal][download][type] = "file"
