@@ -7,9 +7,11 @@
  *   An array of modules to enable.
  */
 function kmdrupal_profile_modules() {
-  return array('color', 'comment', 'help', 'menu', 'taxonomy', 'dblog', 'libraries', 'ctools', 'features', 'imageapi', 'cck',
-    'imageapi_gd', 'imagecache', 'imagecache_ui', 'strongarm', 'views', 'views_ui', 'filefield',
-    
+  return array('color', 'comment', 'help', 'menu', 'taxonomy', 'dblog', 'libraries', 'ctools', 'features', 'imageapi', 'content',
+    'imageapi_gd', 'imagecache', 'imagecache_ui', 'strongarm', 'views', 'views_ui', 'filefield', 'imagefield',
+    'semanticviews', 'views_bulk_operations', 'imagefield_crop',
+  //  'km_context', 'km', 'km_override_attribute', 'km_override_findpeople', 'km_person', 'km_person_field', 'km_person_group',
+  //  'km_directory_groups', 'km_directory', 
   );
 }
 
