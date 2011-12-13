@@ -22,6 +22,9 @@ projects[] = strongarm
 projects[] = views_bulk_operations
 projects[] = views  
 
+libraries[kmphp][download][type] = "file"
+libraries[kmphp][download][url] = "http://source.web.engadmin.ohio-state.edu/sites/source.web.engadmin.ohio-state.edu/files/projects/kmphp-1.x-dev.tar.gz"
+
 projects[kmdrupal][type] = "profile"
 projects[kmdrupal][download][type] = "file"
 projects[kmdrupal][download][url] = "https://raw.github.com/ASCTech/kmdrupal/master/kmdrupal.profile"
@@ -34,6 +37,3 @@ projects[kmdirectory][type] = "module"
 projects[kmdirectory][download][type] = "file"
 projects[kmdirectory][download][url] = "http://source.web.engadmin.ohio-state.edu/sites/source.web.engadmin.ohio-state.edu/files/projects/km_directory-6.x-1.x-dev.tar.gz"
 
-libraries[kmphp][download][type] = "file"
-libraries[kmphp][download][type] = "https://source.web.engadmin.ohio-state.edu/sites/source.web.engadmin.ohio-state.edu/files/projects/kmphp-1.x-dev.tar.gz"
-libraries[kmphp][destination] = "libraries"
